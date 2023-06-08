@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.blog-item {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.title-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #12022f;
+}
+.description {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #9aa5b1;
+  padding-left: 0px;
+  text-align: left;
+}
+.date {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 17px;
+  }
+  .date {
+    font-size: 19px;
+  }
+}

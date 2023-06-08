@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.profile-img {
+  height: 150px;
+  width: 150px;
+}
+.name {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #12022f;
+}
+.occupation-role {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #616e7c;
+}
